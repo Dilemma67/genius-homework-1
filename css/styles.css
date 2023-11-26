@@ -1,0 +1,152 @@
+/* play-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* play-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-900 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* global */
+:root{
+    --color-main-white: #FFFFFF;
+    --color-main-light-blue:#2B7FFF;
+    --color-main-dark-blue:#011C44;
+}
+body{
+    color:var(--color-main-dark-blue) ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-second-header{
+    text-align: left;
+}
+.bald{
+    font-weight:600;
+}
+.light-blue{
+    color: var(--color-main-light-blue);
+}
+.footer-text-color{
+    color: var(--color-main-white);
+    background-color: var(--color-main-dark-blue);
+    font-size: 16px;
+}
+
+.record-form{
+    color: var(--color-main-white);
+    background-color: var(--color-main-dark-blue);
+}
+
+.services-text{
+    color: var(--color-main-white);
+}
+/* beauty-zone-classes */
+.beauty-zone{
+    color: var(--color-main-light-blue);
+    font-family: Play;
+}
+.beauty-zone .accent{
+   
+font-size: 140px;
+font-weight: 700;
+line-height: 114px; /* 81.429% */
+text-transform: capitalize;
+}
+.header-link{
+    text-decoration: none;
+    color: var(--color-main-dark-blue);
+}
+.header-link:hover{
+    color: var(--color-main-light-blue);
+    font-weight: 700;
+}
+
+.address-link{
+    color: var(--color-main-white);
+    text-decoration: none;
+}
+.address-link:hover{
+    color: var(--color-main-light-blue);
+}
+.address-copywright{
+    color: #747272;
+    font-size: 13px;
+}
+
+.bigger-px-text{
+    font-size: 22px;
+}
+/* button */
+.button{
+    color: var(--color-main-white);
+    border-radius: 8px;
+    border: 2px solid var(--color-main-light-blue);
+    background: var(--color-main-light-blue);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    }        
+    .button:hover{
+        color:var(--color-main-white);
+        background-color: transparent;
+    }
+    .section-one-additional-info{
+        font-size: 12px;
+    }
+
+    .footer-link{
+        color: var(--color-main-white);
+        text-decoration: none;
+    }
